@@ -1,0 +1,24 @@
+1. Mechanism of action folder contains all the files of the web app.
+
+2.Here app.py is main file (flask) 
+  Static folder contains css file, logo image and background image
+  templates folder contains html files
+  encoder.hs is a pretrained autoencoder model
+  final_model.pkl file is pretrained logistic regression model
+  procfile is a file which is required to deploy the web app on Heroku
+  requirement.txt file contains all the libraries and their version, required during deployment
+  sample_input.csv is a sample file format in which input should be given
+  target_columns.pkl contains all the columns names of target variables
+  transform.pkl is pretrained model to normalize the data
+
+3.Open terminal in directory containing app.py file and type "python app.py"
+
+4.Copy the localhost url and paste in browser.
+
+5.Click on Important Instructions button and it will open a web page containing all the instructions along with downloadable sample input file.
+
+6.Click on choose file button and select a valid file.
+
+7.Click on Predict and Download and it will start predicting and will download a zip file.
+
+8.The zip file will contain 2 files, one file will contain prediction and another will contain probabilities of all the predictions.
