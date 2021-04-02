@@ -1,0 +1,92 @@
+body{
+    background-image: url("2.png");
+}
+.logo{
+    height: 160px;
+    width: 550px;
+    padding-left: 2px;
+}
+.imp-btn{
+    position:absolute; 
+    top:85px; 
+    right:20px;
+    height: 20px;
+    width: 200px;
+    border: 2px solid rgb(82, 138, 207);
+    background-color: rgb(235, 82, 21);
+    border-radius: 50px;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+h3{
+    color: rgb(82, 138, 207);
+    margin-bottom: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.browse{
+    border: 3px solid rgb(82, 138, 207);
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 203, 21);
+    font-size: 16px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 50px;
+    outline: none;
+    width: 400px;
+    
+}
+.predict-btn{
+    height: 50px;
+    width: 200px;
+    border: 3px solid rgb(82, 138, 207);
+    background-color: rgb(235, 203, 21);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    
+}
+.predict-btn:hover{
+    opacity: 0.5;
+}
+.social-media{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social-media a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.social-media a:hover{
+    background: rgba(3, 128, 201, 0.993);
+}
+
+.social-media a i{
+    transition: 0.5s all;
+}
+.social-media a:hover > i{
+    transform: scale(1.2) rotate(25deg);
+}

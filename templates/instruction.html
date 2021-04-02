@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Important instructions</title>
+    </head>
+    <body>
+        <h1>Important Instructions</h1>
+        <h3>File Upload</h3>
+        <p>
+            File being uploaded should be a comma seperated value file
+            with 876 columns and any number of rows. <br>
+            <b>First</b> column should be ID value. <br>
+            <b>Second</b> column should be cp_type. <br>
+            <b>Third</b> column should be cp_time. <br>
+            <b>Fourth</b> column should be cp_dose. <br>
+            <b>5th to 776th</b> columns should be gene columns (ex- g-0, g-1,..., g-772). <br>
+            <b>777th to 876th</b> columns should be cell columns (ex- c-0, c-1,..., c-99). <br>
+        </p>
+        <a href="{{ url_for('download_file') }}" download>
+            Download sample upload file
+        </a>
+        <h3>Predict and Download</h3>
+        <p>
+            After uploading the file click on <b>"Predict and Download"</b> button.<br>
+            It will take time according to number of data points to predict and<br>
+            it will download a zip file containing two csv files:<br>
+            <b>1.</b> File containing predictions.<br>
+            <b>2.</b> File containing probability of each predictions<br>
+        </p>
+    </body>
+</html>
