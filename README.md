@@ -1,4 +1,4 @@
-# Mechanism-of-Action-Predictor
+# Mechanism of Action Predictor - A multi-label machine learning classification case study
 ![](Screen_shots/header.png)
 
 ## Introduction and Overview
